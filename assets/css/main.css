@@ -120,6 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
+		margin-top: 100px
 		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
 	}
@@ -171,6 +172,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
+		font-style: bold;
 	}
 
 	em, i {
@@ -3077,8 +3079,13 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 1em 0 0.75em 0;
 		}
+
+		#header h2 {
+			margin: 0 0 7.5em 0;
+		}
+
 
 		#header p {
 			font-size: 1.25em;
@@ -3690,14 +3697,16 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 5em 5em 1em 5em ;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 0 -2em;
+
 	}
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-left: 22em;
+
 		}
 
 		#footer .copyright {
