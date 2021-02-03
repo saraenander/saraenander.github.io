@@ -2380,11 +2380,19 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img{
 				width: 100%;
+				}
+				 .image.leftleft img {
+				width: 220px;
 			}
 
 		.image.left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+		.image.leftleft {
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
